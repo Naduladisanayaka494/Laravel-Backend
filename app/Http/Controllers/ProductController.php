@@ -31,4 +31,8 @@ class ProductController extends Controller
     }
 }
 
+function getProduct($id){
+    return Product::find($id);
+}
+
 }
